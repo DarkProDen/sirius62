@@ -1,0 +1,49 @@
+header {
+  background-image: linear-gradient(135deg, #00293d 0, #002336 100%);
+  padding: min(30px, 5%) min(30px, 5%);
+  color: white;
+  margin: 0;
+}
+
+.header__content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2%;
+  padding-bottom: 4%;
+}
+
+header h1 {
+  margin-bottom: 1.25rem;
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.14;
+  letter-spacing: 0.9px;
+  word-break: break-word;
+}
+
+.header__h1__subtitle {
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 130%;
+  margin-bottom: 1.25rem;
+}
+
+.header__logo {
+  max-width: 250px;
+  margin: 2rem;
+}
+
+.header__button {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.65rem 2rem;
+  line-height: 1.6rem;
+  color: white;
+  background-color: #03a9f4;
+  border-color: #03a9f4;
+  border-radius: 56px;
+  text-decoration: none;
+}
