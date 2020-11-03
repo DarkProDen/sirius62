@@ -1,5 +1,9 @@
 header {
-  background-image: linear-gradient(135deg, #00293d 0, #002336 100%);
+  background-image: linear-gradient(
+    45deg,
+    rgb(0, 175, 170) 0,
+    rgb(0, 160, 227) 100%
+  );
   padding: min(30px, 5%) min(30px, 5%);
   color: white;
   margin: 0;
