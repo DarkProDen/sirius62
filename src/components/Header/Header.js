@@ -1,7 +1,7 @@
-import React from 'react';
-import './Header.css';
-import minObrLogo from '../../img/obrz.png';
-import logo from '../../img/logo.png';
+import React from "react";
+import "./Header.css";
+import minObrLogo from "../../img/obrz.png";
+import logo from "../../img/logo.png";
 
 function Header() {
   return (
@@ -11,15 +11,19 @@ function Header() {
         <img className="header__logo" src={logo}></img>
         <div className="header__content__right">
           <h1 className="header__h1">
-            Всероссийский конкурс
-            <br />
-            научно-технологических
-            <br />
-            проектов "Большие вызовы"
+            <span className="header__text">
+              <div className="header__text__title">БОЛЬШИЕ ВЫЗОВЫ</div>
+              <div>
+                ВСЕРОССИЙСКИЙ КОНКУРС
+                <br />
+                НАУЧНО-ТЕХНОЛОГИЧЕСКИХ ПРОЕКТОВ
+              </div>
+            </span>
           </h1>
           <div className="header__h1__subtitle">Рязанская область</div>
           <a
             className="header__button"
+            target="blank"
             href="http://sirius62.ru/wp-content/uploads/2020/03/Bolshie_Vyzovy.pdf"
           >
             Результаты регионального трека
