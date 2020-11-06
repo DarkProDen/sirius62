@@ -1,0 +1,5 @@
+@media (max-width: 770px) {
+  .competition-themes__wrapper {
+    flex-wrap: wrap;
+  }
+}

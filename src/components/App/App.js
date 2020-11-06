@@ -1,10 +1,12 @@
-import React from 'react';
-import Header from '../Header/Header';
+import React from "react";
+import CompetitionThemes from "../CompetitionThemes/CompetitionThemes";
+import Header from "../Header/Header";
 
 function App() {
   return (
     <div>
-      <Header></Header>
+      <Header />
+      <CompetitionThemes />
     </div>
   );
 }
