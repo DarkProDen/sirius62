@@ -2,4 +2,11 @@
   .competition-themes__wrapper {
     flex-wrap: wrap;
   }
+  .competition-theme {
+    width: auto;
+  }
+  .competition-themes {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
 }
