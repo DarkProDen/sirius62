@@ -4,7 +4,8 @@
   align-items: center;
   justify-content: center;
   background-color: rgb(245 250 253);
-  padding: 20px 20%;
+  padding: 30px 20%;
+  padding-bottom: 60px;
 }
 
 .competition-themes__wrapper {
@@ -36,4 +37,9 @@
   color: #6b7c93;
   margin-bottom: 16px;
   text-align: center;
+}
+
+.competition-theme .button {
+  margin-top: auto;
+  width: max-content;
 }
