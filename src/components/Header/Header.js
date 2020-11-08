@@ -1,8 +1,8 @@
-import React from "react";
-import "./Header.css";
-import "./HeaderMobile.css";
-import minObrLogo from "../../img/obrz.png";
-import logo from "../../img/logo.png";
+import React from 'react';
+import './Header.css';
+import './HeaderMobile.css';
+import minObrLogo from '../../img/obrz.png';
+import logo from '../../img/logo.png';
 
 function Header() {
   return (
@@ -22,12 +22,8 @@ function Header() {
             </span>
           </h1>
           <div className="header__h1__subtitle">Рязанская область</div>
-          <a
-            className="button"
-            target="blank"
-            href="http://sirius62.ru/wp-content/uploads/2020/03/Bolshie_Vyzovy.pdf"
-          >
-            Результаты регионального трека
+          <a className="button" target="blank" href="https://online.sochisirius.ru/">
+            Личный кабинет
           </a>
         </div>
       </div>

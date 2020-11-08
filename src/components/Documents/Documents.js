@@ -38,7 +38,7 @@ function Documents() {
       <div className="document-card">
         <a
           target="blank"
-          href="http://sirius62.ru/wp-content/uploads/2020/03/Sostav_Organizatsionnogo_Komiteta_Regionalnogo_Treka_Konkursa.pdf"
+          href="http://sirius62.ru/wp-content/uploads/2020/03/Sostav_Expertnykh_Komissy_Regionalnogo_Treka_Konkursa.pdf"
         >
           <div className="document-card__icon far fa-address-card"></div>
         </a>
