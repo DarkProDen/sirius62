@@ -20,6 +20,7 @@
   align-items: center;
   width: 45%;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .contact-card h4 {
@@ -32,6 +33,5 @@
 }
 
 .contact-card__description {
-  text-align: center;
   color: #6b7c93;
 }
