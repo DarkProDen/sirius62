@@ -1,8 +1,9 @@
-import React from "react";
-import "./CompetitionThemes.css";
-import "./CompetitionThemesMobile.css";
-import aptLogo from "../../img/APT-logo.png";
-import bigDataLogo from "../../img/big-data-logo.png";
+import React from 'react';
+import './CompetitionThemes.css';
+import './CompetitionThemesMobile.css';
+import aptLogo from '../../img/APT-logo.png';
+import bigDataLogo from '../../img/big-data-logo.png';
+import Button from '../Button/Button';
 
 function CompetitionThemes() {
   return (
@@ -22,13 +23,9 @@ function CompetitionThemes() {
             высококачественных пищевых продуктов, а также мониторинга их
             экологической и генетической безопасности.
           </div>
-          <a
-            className="button"
-            href="https://sochisirius.ru/obuchenie/project/smena617/2993"
-            target="blank"
-          >
+          <Button href="https://sochisirius.ru/obuchenie/project/smena617/2993">
             Подробнее о направлении
-          </a>
+          </Button>
         </div>
         <div className="competition-theme">
           <img className="competition-theme__icon" src={bigDataLogo} />
@@ -40,13 +37,9 @@ function CompetitionThemes() {
             Данное направление посвящено работе с большими объемами данных
             (включая вопросы кибербезопасности) в разных проявлениях.
           </div>
-          <a
-            className="button"
-            href="https://sochisirius.ru/obuchenie/project/smena624/3018"
-            target="blank"
-          >
+          <Button href="https://sochisirius.ru/obuchenie/project/smena624/3018">
             Подробнее о направлении
-          </a>
+          </Button>
         </div>
       </div>
     </div>
