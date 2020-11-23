@@ -3,6 +3,7 @@ import './Header.css';
 import './HeaderMobile.css';
 import minObrLogo from '../../img/obrz.png';
 import logo from '../../img/logo.png';
+import instruction from '../../uploads/Instruktsia_po_registratsii_proekta_v_konkurse_Bolshie_vyzovy.pdf';
 
 function Header() {
   return (
@@ -22,7 +23,14 @@ function Header() {
             </span>
           </h1>
           <div className="header__h1__subtitle">Рязанская область</div>
-          <a className="button" target="blank" href="https://online.sochisirius.ru/">
+          <a className="button" target="blank" href={instruction}>
+            Инструкция по регистрации
+          </a>
+          <a
+            className="button"
+            target="blank"
+            href="https://online.sochisirius.ru/"
+          >
             Личный кабинет
           </a>
         </div>

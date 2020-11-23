@@ -19,11 +19,17 @@ header {
 
 .header__content__right {
   max-width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.header__content__right .button:first-of-type {
+  margin-bottom: 1.25rem;
 }
 
 header h1 {
   margin-bottom: 1.25rem;
-
   font-weight: 300;
   line-height: 1.14;
   letter-spacing: 0.9px;
@@ -50,7 +56,4 @@ header h1 {
   border-bottom: 3px solid white;
   margin-bottom: 1rem;
   font-size: 3.5rem;
-}
-
-.header__text {
 }

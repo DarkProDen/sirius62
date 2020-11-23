@@ -1,6 +1,10 @@
-@media (max-width: 770px) {
+@media (max-width: 861px) {
   .header__content__right {
     text-align: center;
     max-width: 100%;
+  }
+
+  .header__content__right {
+    align-items: center;
   }
 }
