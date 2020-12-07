@@ -10,6 +10,7 @@
 body {
   margin: 0;
   font-family: 'Gilroy Medium', 'Open Sans', Helvetica, Arial, sans-serif;
+  word-break: break-word;
 }
 
 h2 {
@@ -17,4 +18,12 @@ h2 {
   font-size: 2.5rem;
   line-height: 3rem;
   font-weight: 400;
+}
+
+@media (max-width: 861px) {
+  h2 {
+    font-size: 2rem;
+    line-height: 2.2rem;
+    word-break: break-word;
+  }
 }

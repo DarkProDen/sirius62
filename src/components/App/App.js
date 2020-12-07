@@ -7,13 +7,13 @@ import Timing from '../Timing/Timing';
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
       <Timing />
       <CompetitionThemes />
       <Documents />
       <Contacts />
-    </div>
+    </>
   );
 }
 

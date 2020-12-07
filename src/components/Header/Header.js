@@ -26,6 +26,7 @@ function Header() {
           <div className="header__h1__subtitle">Рязанская область</div>
           <Button href={instruction}>Инструкция по регистрации</Button>
           <Button href="https://online.sochisirius.ru/">Личный кабинет</Button>
+          <Button href="https://konkurs.sochisirius.ru/">Основной сайт конкурса</Button>
         </div>
       </div>
     </header>
