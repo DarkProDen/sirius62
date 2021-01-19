@@ -2,12 +2,7 @@ import React from 'react';
 import './Timing.css';
 
 function Timing() {
-  return (
-    <div className="timing">
-      Прием заявок на региональный трек Конкурса "Большие вызовы" до 15 января
-      2021 г.
-    </div>
-  );
+  return <div className="timing">Срок приема заявок продлен до 31.01.2021.</div>;
 }
 
 export default Timing;
