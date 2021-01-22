@@ -1,8 +1,10 @@
-import React from "react";
-import "./Documents.css";
-import "./DocumentsMobile.css";
-import polojenie from "../../uploads/Polojenie.pdf";
-import prikaz from "../../uploads/Prikaz.pdf";
+import React from 'react';
+import './Documents.css';
+import './DocumentsMobile.css';
+import polojenie from '../../uploads/Polojenie.pdf';
+import prikaz from '../../uploads/Prikaz.pdf';
+import sostavKomiteta from '../../uploads/Sostav_orgkomiteta.pdf';
+import experts from '../../uploads/Experts.pdf';
 
 function Documents() {
   return (
@@ -20,17 +22,17 @@ function Documents() {
         <h2 className="document-card__text">Приказ о конкурсе</h2>
       </div>
       <div className="document-card">
-        {/* <a target="blank" href={sostavKomiteta}>*/}
-        <div className="document-card__icon far fa-address-book"></div>
-        {/* </a>*/}
+        <a target="blank" href={sostavKomiteta}>
+          <div className="document-card__icon far fa-address-book"></div>
+        </a>
         <h2 className="document-card__text">
           Состав Организационного комитета
         </h2>
       </div>
       <div className="document-card">
-        {/* <a target="blank" href={sostavKomissy}>*/}
-        <div className="document-card__icon far fa-address-card"></div>
-        {/* </a>*/}
+        <a target="blank" href={experts}>
+          <div className="document-card__icon far fa-address-card"></div>
+        </a>
         <h2 className="document-card__text">
           Состав Экспертной комиссии очного/заочного этапа
         </h2>
