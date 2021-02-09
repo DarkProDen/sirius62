@@ -5,8 +5,8 @@ import polojenie from '../../uploads/Polojenie.pdf';
 import prikaz from '../../uploads/Prikaz.pdf';
 import sostavKomiteta from '../../uploads/Sostav_orgkomiteta.pdf';
 import experts from '../../uploads/Experts.pdf';
-import agroZaochList from '../../uploads/АГРОПРОМЫШЛЕННЫЕ и БИОТЕХНОЛОГИИ.pdf';
-import bigDataZaochList from '../../uploads/БОЛЬШИЕ ДАННЫЕ, ИСКУСТВЕННЫЙ ИНТЕЛЛЕКТ, ФИНАНСОВЫЕ ТЕХНОЛОГИИ И МАШИННОЕ ОБУЧЕНИЕ.pdf';
+import agroZaochList from '../../uploads/agroprom_and_boitech_zaoch_participants_list.pdf';
+import bigDataZaochList from '../../uploads/big_data_zaoch_participants_list.pdf';
 
 function Documents() {
   return (
