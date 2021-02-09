@@ -5,6 +5,8 @@ import polojenie from '../../uploads/Polojenie.pdf';
 import prikaz from '../../uploads/Prikaz.pdf';
 import sostavKomiteta from '../../uploads/Sostav_orgkomiteta.pdf';
 import experts from '../../uploads/Experts.pdf';
+import agroZaochList from '../../uploads/АГРОПРОМЫШЛЕННЫЕ и БИОТЕХНОЛОГИИ.pdf';
+import bigDataZaochList from '../../uploads/БОЛЬШИЕ ДАННЫЕ, ИСКУСТВЕННЫЙ ИНТЕЛЛЕКТ, ФИНАНСОВЫЕ ТЕХНОЛОГИИ И МАШИННОЕ ОБУЧЕНИЕ.pdf';
 
 function Documents() {
   return (
@@ -35,6 +37,24 @@ function Documents() {
         </a>
         <h2 className="document-card__text">
           Состав Экспертной комиссии очного/заочного этапа
+        </h2>
+      </div>
+      <div className="document-card">
+        <a target="blank" href={agroZaochList}>
+          <div className="document-card__icon fab fa-pagelines"></div>
+        </a>
+        <h2 className="document-card__text">
+          Список участников очного этапа по направлению "Агропромышленные и
+          биотехнологии"
+        </h2>
+      </div>
+      <div className="document-card">
+        <a target="blank" href={bigDataZaochList}>
+          <div className="document-card__icon fas fa-robot"></div>
+        </a>
+        <h2 className="document-card__text">
+          Список участников очного этапа по направлению "Большие данные,
+          искусственный интеллект, финансовые технологии и машинное обучение"
         </h2>
       </div>
     </div>

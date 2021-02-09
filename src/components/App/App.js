@@ -9,7 +9,6 @@ function App() {
   return (
     <>
       <Header />
-      <Timing />
       <CompetitionThemes />
       <Documents />
       <Contacts />

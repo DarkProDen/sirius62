@@ -30,7 +30,7 @@ function CompetitionThemes() {
         <div className="competition-theme">
           <img className="competition-theme__icon" src={bigDataLogo} />
           <div className="competition-theme__name">
-            Большие данные, искусственный интелект, финансовые технологии и
+            Большие данные, искусственный интеллект, финансовые технологии и
             машинное обучение
           </div>
           <div className="competition-theme__description">
