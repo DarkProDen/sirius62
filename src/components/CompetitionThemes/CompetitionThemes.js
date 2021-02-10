@@ -11,7 +11,11 @@ function CompetitionThemes() {
       <h2>Направления конкурса</h2>
       <div className="competition-themes__wrapper">
         <div className="competition-theme">
-          <img className="competition-theme__icon" src={aptLogo} />
+          <img
+            className="competition-theme__icon"
+            src={aptLogo}
+            alt="Агропромышленные и биотехнологии"
+          />
           <div className="competition-theme__name">
             Агропромышленные и биотехнологии
           </div>
@@ -28,7 +32,11 @@ function CompetitionThemes() {
           </Button>
         </div>
         <div className="competition-theme">
-          <img className="competition-theme__icon" src={bigDataLogo} />
+          <img
+            className="competition-theme__icon"
+            src={bigDataLogo}
+            alt="Большие данные, искусственный интеллект, финансовые технологии и машинное обучение"
+          />
           <div className="competition-theme__name">
             Большие данные, искусственный интеллект, финансовые технологии и
             машинное обучение
