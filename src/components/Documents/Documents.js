@@ -7,56 +7,34 @@ import sostavKomiteta from '../../uploads/Sostav_orgkomiteta.pdf';
 import experts from '../../uploads/Experts.pdf';
 import agroZaochList from '../../uploads/agroprom_and_boitech_zaoch_participants_list.pdf';
 import bigDataZaochList from '../../uploads/big_data_zaoch_participants_list.pdf';
+import DocumentCard from '../DocumentCard/DocumentCard';
 
 function Documents() {
   return (
     <div className="documents">
-      <div className="document-card">
-        <a target="blank" href={polojenie}>
-          <div className="document-card__icon far fa-file-alt"></div>
-        </a>
-        <h2 className="document-card__text">Положение конкурса</h2>
-      </div>
-      <div className="document-card">
-        <a target="blank" href={prikaz}>
-          <div className="document-card__icon far fa-edit"></div>
-        </a>
-        <h2 className="document-card__text">Приказ о конкурсе</h2>
-      </div>
-      <div className="document-card">
-        <a target="blank" href={sostavKomiteta}>
-          <div className="document-card__icon far fa-address-book"></div>
-        </a>
-        <h2 className="document-card__text">
-          Состав Организационного комитета
-        </h2>
-      </div>
-      <div className="document-card">
-        <a target="blank" href={experts}>
-          <div className="document-card__icon far fa-address-card"></div>
-        </a>
-        <h2 className="document-card__text">
-          Состав Экспертной комиссии очного/заочного этапа
-        </h2>
-      </div>
-      <div className="document-card">
-        <a target="blank" href={agroZaochList}>
-          <div className="document-card__icon fab fa-pagelines"></div>
-        </a>
-        <h2 className="document-card__text">
-          Список участников очного этапа по направлению "Агропромышленные и
-          биотехнологии"
-        </h2>
-      </div>
-      <div className="document-card">
-        <a target="blank" href={bigDataZaochList}>
-          <div className="document-card__icon fas fa-robot"></div>
-        </a>
-        <h2 className="document-card__text">
-          Список участников очного этапа по направлению "Большие данные,
-          искусственный интеллект, финансовые технологии и машинное обучение"
-        </h2>
-      </div>
+      <DocumentCard text="Положение конкурса" href={polojenie} icon="far fa-file-alt" />
+      <DocumentCard text="Приказ о конкурсе" href={prikaz} icon="far fa-edit" />
+      <DocumentCard
+        text="Состав Организационного комитета"
+        href={sostavKomiteta}
+        icon="far fa-address-book"
+      />
+      <DocumentCard
+        text="Состав Экспертной комиссии очного/заочного этапа"
+        href={experts}
+        icon="far fa-address-card"
+      />
+      <DocumentCard
+        text='Список участников очного этапа по направлению "Агропромышленные и биотехнологии"'
+        href={agroZaochList}
+        icon="fab fa-pagelines"
+      />
+      <DocumentCard
+        text='Список участников очного этапа по направлению "Большие данные, искусственный интеллект,
+        финансовые технологии и машинное обучение"'
+        href={bigDataZaochList}
+        icon="fas fa-robot"
+      />
     </div>
   );
 }
