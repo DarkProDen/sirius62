@@ -9,6 +9,7 @@ import agroZaochList from '../../uploads/agroprom_and_boitech_zaoch_participants
 import bigDataZaochList from '../../uploads/big_data_zaoch_participants_list.pdf';
 import DocumentCard from '../DocumentCard/DocumentCard';
 import finalList from '../../uploads/Spisok_uchastnikov_final.pdf';
+import final3List from '../../uploads/3_tour_final.pdf';
 
 function Documents() {
   return (
@@ -39,6 +40,11 @@ function Documents() {
       <DocumentCard
         text='Список участников заключительного этапа Всероссийского конкурса научно-технологических проектов "Большие вызовы"'
         href={finalList}
+        icon="fas fa-flag-checkered"
+      />
+      <DocumentCard
+        text='Список участников третьего тура заключительного этапа Всероссийского конкурса научно-технологических проектов "Большие вызовы"'
+        href={final3List}
         icon="fas fa-flag-checkered"
       />
     </div>
